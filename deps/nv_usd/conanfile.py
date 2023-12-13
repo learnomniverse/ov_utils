@@ -68,3 +68,5 @@ class NvUsdConan(ConanFile):
     def package_info(self):
         self.cpp_info.includedirs = ['include']
         self.cpp_info.libdirs = ['lib']
+        # TODO: add more of these as needed
+        self.cpp_info.libs = ['arch', 'gf', 'sdf', 'tf', 'usd', 'usdGeom', 'usdUtils']
