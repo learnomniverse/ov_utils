@@ -49,8 +49,6 @@ function(get_writing_folder_from_folder_stack folder_stack)
     return()
   endif()
 
-  message("foreach index RANGE 0 ${folder_stack_size}-1")
-
   # Iterate through folder_stack to create the path
   math(EXPR count "${folder_stack_size} - 1")
   foreach(index RANGE 0 ${count})
