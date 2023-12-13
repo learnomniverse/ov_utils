@@ -58,4 +58,4 @@ class KitSDKConan(ConanFile):
         copy(self, "*", self.build_folder, self.package_folder)
 
     def package_info(self):
-        pass
+        self.cpp_info.includedirs = ['dev/include', 'dev/fabric/include', 'dev/gsl/include', 'dev/ogn/include']
