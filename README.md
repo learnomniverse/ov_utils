@@ -1,3 +1,5 @@
+Please read [https://learnomniverse.github.io/](https://learnomniverse.github.io/) for more information.
+
 Use this repo as a git submodule in your main Omniverse extension development repository to download and configure Omniverse dependencies via Conan recipes and set up a local filesystem building hierarchy via CMake helpers.
 
 Here's a quick git cheatsheet
